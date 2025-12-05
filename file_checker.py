@@ -6,7 +6,16 @@ from pathlib import Path
 from datetime import datetime
 
 class FileIntegrityChecker:
-      
+    def __init__(self, baseline_file="baseline.json"):
+        """
+        Initialize the File Integrity Checker
+        
+        Args:
+            baseline_file: Name of the file to store baseline data
+        """
+        self.baseline_file = baseline_file
+        self.baseline_data = {}
+
     def calculate_hash(self, filepath, algorithm="sha256"):
         """
         Calculate cryptographic hash of a file
@@ -60,3 +69,47 @@ class FileIntegrityChecker:
             print(f"Baseline saved to: {self.baseline_file}")
         except Exception as e:
             print(f"Error saving baseline: {e}")
+
+    def scan_directory(self, directory, algorithm="sha256"):
+        """
+        Scan directory and generate hash information for all files
+        
+        Args:
+            directory: Directory path to scan
+            algorithm: Hash algorithm to use
+        
+        Returns:
+            Dictionary with file information
+        """
+        file_data = {}
+        directory_path = Path(directory)
+        
+        if not directory_path.exists():
+            print(f"Error: Directory '{directory}' does not exist")
+            return file_data
+        
+        print(f"\nScanning directory: {directory}")
+        print("-" * 50)
+        
+        # Recursively scan all files
+        for filepath in directory_path.rglob('*'):
+            if filepath.is_file():
+                try:
+                    # Get file information
+                    file_stats = filepath.stat()
+                    file_hash = self.calculate_hash(filepath, algorithm)
+                    
+                    if file_hash:
+                        relative_path = str(filepath.relative_to(directory_path))
+                        file_data[relative_path] = {
+                            'hash': file_hash,
+                            'size': file_stats.st_size,
+                            'modified': file_stats.st_mtime,
+                            'algorithm': algorithm
+                        }
+                        print(f"Scanned: {relative_path}")
+                
+                except Exception as e:
+                    print(f"Error scanning {filepath}: {e}")
+        
+        return file_data
