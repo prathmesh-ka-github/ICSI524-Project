@@ -113,3 +113,28 @@ class FileIntegrityChecker:
                     print(f"Error scanning {filepath}: {e}")
         
         return file_data
+    
+    def load_baseline(self):
+        """
+        Load baseline data from file
+        
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            with open(self.baseline_file, 'r') as f:
+                baseline_info = json.load(f)
+                self.baseline_data = baseline_info['files']
+                print(f"Baseline loaded from: {self.baseline_file}")
+                print(f"Created: {baseline_info['created']}")
+                print(f"Directory: {baseline_info['directory']}")
+                print(f"Files in baseline: {len(self.baseline_data)}")
+                return True
+        except FileNotFoundError:
+            print(f"Baseline file '{self.baseline_file}' not found")
+            print("Please create a baseline first using option 1")
+            return False
+        except Exception as e:
+            print(f"Error loading baseline: {e}")
+            return False
+    
