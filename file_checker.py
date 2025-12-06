@@ -138,3 +138,64 @@ class FileIntegrityChecker:
             print(f"Error loading baseline: {e}")
             return False
     
+        def verify_integrity(self, directory):
+        """
+        Verify file integrity against baseline
+        
+        Args:
+            directory: Directory to verify
+        """
+        print(f"\n{'='*50}")
+        print("VERIFYING INTEGRITY")
+        print(f"{'='*50}")
+        
+        if not self.load_baseline():
+            return
+        
+        # Get current state
+        algorithm = list(self.baseline_data.values())[0]['algorithm'] if self.baseline_data else 'sha256'
+        current_data = self.scan_directory(directory, algorithm)
+        
+        # Compare
+        modified = []
+        added = []
+        deleted = []
+        
+        # Check for modifications and deletions
+        for filename, baseline_info in self.baseline_data.items():
+            if filename not in current_data:
+                deleted.append(filename)
+            elif current_data[filename]['hash'] != baseline_info['hash']:
+                modified.append(filename)
+        
+        # Check for new files
+        for filename in current_data:
+            if filename not in self.baseline_data:
+                added.append(filename)
+        
+        # Display results
+        print(f"\n{'='*50}")
+        print("INTEGRITY CHECK RESULTS")
+        print(f"{'='*50}")
+        
+        if not modified and not added and not deleted:
+            print("\nALL FILES INTACT - No changes detected!!")
+        else:
+            print(f"\nCHANGES DETECTED:")
+            
+            if modified:
+                print(f"\nModified Files ({len(modified)}):")
+                for f in modified:
+                    print(f"  - {f}")
+            
+            if added:
+                print(f"\nNew Files ({len(added)}):")
+                for f in added:
+                    print(f"  - {f}")
+            
+            if deleted:
+                print(f"\nDeleted Files ({len(deleted)}):")
+                for f in deleted:
+                    print(f"  - {f}")
+        
+        print(f"\nSummary: {len(modified)} modified, {len(added)} added, {len(deleted)} deleted")
