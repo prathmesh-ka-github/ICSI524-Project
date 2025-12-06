@@ -138,7 +138,7 @@ class FileIntegrityChecker:
             print(f"Error loading baseline: {e}")
             return False
     
-        def verify_integrity(self, directory):
+    def verify_integrity(self, directory):
         """
         Verify file integrity against baseline
         
