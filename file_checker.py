@@ -199,3 +199,46 @@ class FileIntegrityChecker:
                     print(f"  - {f}")
         
         print(f"\nSummary: {len(modified)} modified, {len(added)} added, {len(deleted)} deleted")
+
+
+def main():
+    """Main function to run the File Integrity Checker"""
+    checker = FileIntegrityChecker()
+    
+    print("="*50)
+    print("FILE INTEGRITY CHECKER")
+    print("="*50)
+    
+    while True:
+        print("\nOptions:")
+        print("1. Create baseline")
+        print("2. Verify integrity")
+        print("3. Exit")
+        
+        choice = input("\nEnter your choice (1-3): ").strip()
+        
+        if choice == '1':
+            directory = input("Enter directory path to monitor: ").strip()
+            if directory:
+                algorithm = input("Enter hash algorithm (sha256/sha512/md5) [default: sha256]: ").strip() or "sha256"
+                checker.create_baseline(directory, algorithm)
+            else:
+                print("Invalid directory path")
+        
+        elif choice == '2':
+            directory = input("Enter directory path to verify: ").strip()
+            if directory:
+                checker.verify_integrity(directory)
+            else:
+                print("Invalid directory path")
+        
+        elif choice == '3':
+            print("\nExiting... Stay secure!")
+            break
+        
+        else:
+            print("Invalid choice. Please enter 1, 2, or 3")
+
+
+if __name__ == "__main__":
+    main()
