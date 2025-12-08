@@ -206,3 +206,33 @@ class FileIntegrityGUI:
         
         self.log("Welcome to File Integrity Checker! 🔒\n", "header")
         self.log("Select a directory and create a baseline to get started.\n", "info")
+
+    def browse_directory(self):
+        directory = filedialog.askdirectory()
+        if directory:
+            self.selected_directory.set(directory)
+            self.log(f"\nSelected directory: {directory}\n", "info")
+    
+    def log(self, message, tag="normal"):
+        self.output_text.insert(tk.END, message, tag)
+        self.output_text.see(tk.END)
+        self.output_text.update()
+    
+    def clear_output(self):
+        self.output_text.delete(1.0, tk.END)
+        self.log("Output cleared.\n", "info")
+    
+    def update_progress(self, current, total, filename):
+        if total > 0:
+            percentage = (current / total) * 100
+            self.progress_var.set(percentage)
+            self.progress_label.config(text=f"Processing: {filename} ({current}/{total})")
+            self.root.update_idletasks()
+    
+    def disable_buttons(self):
+        self.create_btn.config(state='disabled')
+        self.verify_btn.config(state='disabled')
+    
+    def enable_buttons(self):
+        self.create_btn.config(state='normal')
+        self.verify_btn.config(state='normal')
