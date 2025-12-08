@@ -236,3 +236,47 @@ class FileIntegrityGUI:
     def enable_buttons(self):
         self.create_btn.config(state='normal')
         self.verify_btn.config(state='normal')
+
+    def create_baseline_thread(self):
+        directory = self.selected_directory.get()
+        if not directory:
+            messagebox.showwarning("Warning", "Please select a directory first!")
+            return
+        
+        if not os.path.exists(directory):
+            messagebox.showerror("Error", "Selected directory does not exist!")
+            return
+        
+        # Run in separate thread to prevent GUI freezing
+        thread = threading.Thread(target=self.create_baseline, args=(directory,))
+        thread.daemon = True
+        thread.start()
+    
+    def create_baseline(self, directory):
+        self.disable_buttons()
+        self.progress_var.set(0)
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("CREATING BASELINE\n", "header")
+        self.log("="*60 + "\n", "header")
+        self.log(f"Directory: {directory}\n", "info")
+        self.log(f"Algorithm: {self.algorithm_var.get()}\n", "info")
+        
+        success, result = self.checker.create_baseline(
+            directory, 
+            self.algorithm_var.get(), 
+            self.update_progress
+        )
+        
+        if success:
+            self.log(f"\n✓ Baseline created successfully!\n", "success")
+            self.log(f"✓ Total files scanned: {result}\n", "success")
+            self.log(f"✓ Baseline saved to: baseline.json\n", "success")
+            messagebox.showinfo("Success", f"Baseline created!\nTotal files: {result}")
+        else:
+            self.log(f"\n✗ Error creating baseline: {result}\n", "error")
+            messagebox.showerror("Error", f"Failed to create baseline:\n{result}")
+        
+        self.progress_var.set(0)
+        self.progress_label.config(text="Ready")
+        self.enable_buttons()
