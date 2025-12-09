@@ -236,3 +236,113 @@ class FileIntegrityGUI:
     def enable_buttons(self):
         self.create_btn.config(state='normal')
         self.verify_btn.config(state='normal')
+
+    def create_baseline_thread(self):
+        directory = self.selected_directory.get()
+        if not directory:
+            messagebox.showwarning("Warning", "Please select a directory first!")
+            return
+        
+        if not os.path.exists(directory):
+            messagebox.showerror("Error", "Selected directory does not exist!")
+            return
+        
+        # Run in separate thread to prevent GUI freezing
+        thread = threading.Thread(target=self.create_baseline, args=(directory,))
+        thread.daemon = True
+        thread.start()
+    
+    def create_baseline(self, directory):
+        self.disable_buttons()
+        self.progress_var.set(0)
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("CREATING BASELINE\n", "header")
+        self.log("="*60 + "\n", "header")
+        self.log(f"Directory: {directory}\n", "info")
+        self.log(f"Algorithm: {self.algorithm_var.get()}\n", "info")
+        
+        success, result = self.checker.create_baseline(
+            directory, 
+            self.algorithm_var.get(), 
+            self.update_progress
+        )
+        
+        if success:
+            self.log(f"\n✓ Baseline created successfully!\n", "success")
+            self.log(f"✓ Total files scanned: {result}\n", "success")
+            self.log(f"✓ Baseline saved to: baseline.json\n", "success")
+            messagebox.showinfo("Success", f"Baseline created!\nTotal files: {result}")
+        else:
+            self.log(f"\n✗ Error creating baseline: {result}\n", "error")
+            messagebox.showerror("Error", f"Failed to create baseline:\n{result}")
+        
+        self.progress_var.set(0)
+        self.progress_label.config(text="Ready")
+        self.enable_buttons()
+        
+    
+    def verify_integrity(self, directory):
+        self.disable_buttons()
+        self.progress_var.set(0)
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("VERIFYING INTEGRITY\n", "header")
+        self.log("="*60 + "\n", "header")
+        
+        success, modified, added, deleted = self.checker.verify_integrity(
+            directory, 
+            self.update_progress
+        )
+        
+        if not success:
+            self.log(f"\n✗ Error: {modified}\n", "error")
+            self.log("Please create a baseline first!\n", "warning")
+            messagebox.showerror("Error", "Baseline not found!\nPlease create a baseline first.")
+            self.progress_var.set(0)
+            self.progress_label.config(text="Ready")
+            self.enable_buttons()
+            return
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("INTEGRITY CHECK RESULTS\n", "header")
+        self.log("="*60 + "\n", "header")
+        
+        if not modified and not added and not deleted:
+            self.log("\n✓ ALL FILES INTACT - No changes detected!\n", "success")
+            messagebox.showinfo("Success", "✓ All files are intact!\nNo changes detected.")
+        else:
+            self.log("\n⚠ CHANGES DETECTED!\n", "warning")
+            
+            if modified:
+                self.log(f"\n📝 Modified Files ({len(modified)}):\n", "warning")
+                for f in modified:
+                    self.log(f"  - {f}\n", "warning")
+            
+            if added:
+                self.log(f"\n➕ New Files ({len(added)}):\n", "info")
+                for f in added:
+                    self.log(f"  - {f}\n", "info")
+            
+            if deleted:
+                self.log(f"\n🗑 Deleted Files ({len(deleted)}):\n", "error")
+                for f in deleted:
+                    self.log(f"  - {f}\n", "error")
+            
+            summary = f"Modified: {len(modified)}, Added: {len(added)}, Deleted: {len(deleted)}"
+            self.log(f"\nSummary: {summary}\n", "header")
+            
+            messagebox.showwarning("Changes Detected", 
+                                  f"⚠ Changes found!\n\n{summary}\n\nCheck output for details.")
+        
+        self.progress_var.set(0)
+        self.progress_label.config(text="Ready")
+        self.enable_buttons()
+
+def main():
+    root = tk.Tk()
+    app = FileIntegrityGUI(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
