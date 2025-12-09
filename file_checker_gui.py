@@ -280,3 +280,69 @@ class FileIntegrityGUI:
         self.progress_var.set(0)
         self.progress_label.config(text="Ready")
         self.enable_buttons()
+        
+    
+    def verify_integrity(self, directory):
+        self.disable_buttons()
+        self.progress_var.set(0)
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("VERIFYING INTEGRITY\n", "header")
+        self.log("="*60 + "\n", "header")
+        
+        success, modified, added, deleted = self.checker.verify_integrity(
+            directory, 
+            self.update_progress
+        )
+        
+        if not success:
+            self.log(f"\n✗ Error: {modified}\n", "error")
+            self.log("Please create a baseline first!\n", "warning")
+            messagebox.showerror("Error", "Baseline not found!\nPlease create a baseline first.")
+            self.progress_var.set(0)
+            self.progress_label.config(text="Ready")
+            self.enable_buttons()
+            return
+        
+        self.log("\n" + "="*60 + "\n", "header")
+        self.log("INTEGRITY CHECK RESULTS\n", "header")
+        self.log("="*60 + "\n", "header")
+        
+        if not modified and not added and not deleted:
+            self.log("\n✓ ALL FILES INTACT - No changes detected!\n", "success")
+            messagebox.showinfo("Success", "✓ All files are intact!\nNo changes detected.")
+        else:
+            self.log("\n⚠ CHANGES DETECTED!\n", "warning")
+            
+            if modified:
+                self.log(f"\n📝 Modified Files ({len(modified)}):\n", "warning")
+                for f in modified:
+                    self.log(f"  - {f}\n", "warning")
+            
+            if added:
+                self.log(f"\n➕ New Files ({len(added)}):\n", "info")
+                for f in added:
+                    self.log(f"  - {f}\n", "info")
+            
+            if deleted:
+                self.log(f"\n🗑 Deleted Files ({len(deleted)}):\n", "error")
+                for f in deleted:
+                    self.log(f"  - {f}\n", "error")
+            
+            summary = f"Modified: {len(modified)}, Added: {len(added)}, Deleted: {len(deleted)}"
+            self.log(f"\nSummary: {summary}\n", "header")
+            
+            messagebox.showwarning("Changes Detected", 
+                                  f"⚠ Changes found!\n\n{summary}\n\nCheck output for details.")
+        
+        self.progress_var.set(0)
+        self.progress_label.config(text="Ready")
+        self.enable_buttons()
+
+def main():
+    root = tk.Tk()
+    app = FileIntegrityGUI(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
