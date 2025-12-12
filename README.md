@@ -366,10 +366,9 @@ This project is created for educational purposes as part of a computer security 
 
 ## 👤 Authors
 
-**Your Name**
 - Names: Rishikesh Sirisilla, Prathmesh Kale
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Project Link: [https://github.com/yourusername/file-integrity-checker](https://github.com/yourusername/file-integrity-checker)
+- GitHub: [prathmesh-ka-github](https://github.com/prathmesh-ka-github) and [Rishikesh1821](https://github.com/Rishikesh1821)
+- Project Link: [file-integrity-checker](https://github.com/prathmesh-ka-github/ICSI524-Project.git)
 
 ## 🙏 Acknowledgments
 
