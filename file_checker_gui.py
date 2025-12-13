@@ -206,7 +206,7 @@ class FileIntegrityGUI:
         
         self.log("Welcome to File Integrity Checker! 🔒\n", "header")
         self.log("Select a directory and create a baseline to get started.\n", "info")
-
+    
     def browse_directory(self):
         directory = filedialog.askdirectory()
         if directory:
@@ -236,7 +236,7 @@ class FileIntegrityGUI:
     def enable_buttons(self):
         self.create_btn.config(state='normal')
         self.verify_btn.config(state='normal')
-
+    
     def create_baseline_thread(self):
         directory = self.selected_directory.get()
         if not directory:
@@ -280,7 +280,21 @@ class FileIntegrityGUI:
         self.progress_var.set(0)
         self.progress_label.config(text="Ready")
         self.enable_buttons()
+    
+    def verify_integrity_thread(self):
+        directory = self.selected_directory.get()
+        if not directory:
+            messagebox.showwarning("Warning", "Please select a directory first!")
+            return
         
+        if not os.path.exists(directory):
+            messagebox.showerror("Error", "Selected directory does not exist!")
+            return
+        
+        # Run in separate thread
+        thread = threading.Thread(target=self.verify_integrity, args=(directory,))
+        thread.daemon = True
+        thread.start()
     
     def verify_integrity(self, directory):
         self.disable_buttons()
@@ -339,10 +353,12 @@ class FileIntegrityGUI:
         self.progress_label.config(text="Ready")
         self.enable_buttons()
 
+
 def main():
     root = tk.Tk()
     app = FileIntegrityGUI(root)
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
