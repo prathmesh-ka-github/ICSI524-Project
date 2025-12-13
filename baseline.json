@@ -1,18 +1,1140 @@
 {
-    "created": "2025-12-13T23:20:39.332605",
-    "directory": "C:/Users/PK859621/Documents/assignments/Computer sec/Presentation",
+    "created": "2025-12-13T23:29:28.679843",
+    "directory": "C:/Users/rishikesh/OneDrive/Desktop/UAlbany/Fall 2025/CS",
     "algorithm": "sha256",
     "files": {
-        "Its Time for Digital security.pdf": {
-            "hash": "bf770701eee9396d4e628b5bb9bc51656223b0d5cb451d9f93447eb7b3983f1d",
-            "size": 23542261,
-            "modified": 1764131008.6519675,
+        "Assignment 3.docx": {
+            "hash": "9423685364ed91afbd4a549289c79ac34c75d91b860e657562ba41ac5738b1ab",
+            "size": 496515,
+            "modified": 1764563690.3779638,
             "algorithm": "sha256"
         },
-        "Presentation.mp4": {
-            "hash": "e2dc90c7e251f008503f2ec165c2abebf96df928845bb0f954af6637521a6383",
-            "size": 72313331,
-            "modified": 1764131701.5504348,
+        "Assignment2.pdf": {
+            "hash": "1e7f91ae5312d92649deb88ea6a1e72ce0c92b73418deeb5599f591640c7be35",
+            "size": 158648,
+            "modified": 1761805061.541933,
+            "algorithm": "sha256"
+        },
+        "computer-security-schedule.docx": {
+            "hash": "ee5f77b8c78604bb861b1f17c04b5a4486c0d46c88aa37dc5a6ced5143ce1815",
+            "size": 16372,
+            "modified": 1759362801.1293137,
+            "algorithm": "sha256"
+        },
+        "CS Paper presentation speech.txt": {
+            "hash": "dde4bd848db62d6a10d313c5fdf489d4c3320f5bc6ae4f0fd541277139017413",
+            "size": 3560,
+            "modified": 1764104958.4297013,
+            "algorithm": "sha256"
+        },
+        "CSI 524 CS Paper Presentation PPT.pdf": {
+            "hash": "f216227e83d85480037f88317aff206f1807e348a09e6d2091042cdb8f3c254a",
+            "size": 8245465,
+            "modified": 1764104546.7267408,
+            "algorithm": "sha256"
+        },
+        "CSI 524 CS Paper Presentation recording.mp4": {
+            "hash": "ff027d276302b8f00d2bbf43ecef7ae5d2a609ad1b10cb606b0f52e8e7ed29af",
+            "size": 58661873,
+            "modified": 1764111544.3975725,
+            "algorithm": "sha256"
+        },
+        "CSI 524 CS Paper Presentation recording1.mp4": {
+            "hash": "abcf062dd89dd6a98bf09f32111415d26495b9a9c8960965b85dc9cec174d031",
+            "size": 80746040,
+            "modified": 1764110160.3167534,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment1_RishikeshSirisilla.docx": {
+            "hash": "b0dfcf4731c3ee4fda21a4c33831bcaeed6fb73411b183774decb89b111556d5",
+            "size": 69820,
+            "modified": 1758943754.5446672,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment1_RishikeshSirisilla.zip": {
+            "hash": "afa3cf2de9c84c477fba3d1f4adfa196222fc2b4899ab3ca183d4a7fd914c7cf",
+            "size": 222513,
+            "modified": 1758945214.859871,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla.docx": {
+            "hash": "31a42d587d8fa850e989a3361d1cc305358dda0311bc7cb11cdbd90f527dae6a",
+            "size": 807791,
+            "modified": 1762750206.0325603,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla.zip": {
+            "hash": "39f76880a2ae4ccf4c3c7ba0b4d5bf63c39e9e8e1d916ff97185f80a05b33d08",
+            "size": 266480,
+            "modified": 1762750589.7604227,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla.zip": {
+            "hash": "4538da3d1aa0821744029f0aa9a5d9bae2eea6b321156e368ee7ea7e98de28a9",
+            "size": 3951187,
+            "modified": 1764717311.304823,
+            "algorithm": "sha256"
+        },
+        "ieee-sp-whatsapp-2025.pdf": {
+            "hash": "d8d44f5299b9d175aceb6ef04ab7b23701b378198539e8f5e182e8fd2a12a61c",
+            "size": 286493,
+            "modified": 1762211753.308789,
+            "algorithm": "sha256"
+        },
+        "Security_Assignment_1.pdf": {
+            "hash": "68aa5dbc215e5fc91a75a850e836b85e5830ad7bd7c7b84245e056df4a6b3586",
+            "size": 167661,
+            "modified": 1758471364.2923124,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment1_RishikeshSirisilla\\caesar_cipher.py": {
+            "hash": "8fdae73bc04345a527669b3c5b7100cfbd299d0fbb1c34fdd8c85093f6df01d3",
+            "size": 901,
+            "modified": 1758944572.215528,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment1_RishikeshSirisilla\\CS_Assignment1_RishikeshSirisilla.pdf": {
+            "hash": "4a37c84ff2367f8396fd0e48a57eac377b616545b4179078cefa19e9642f4c6b",
+            "size": 255059,
+            "modified": 1758944119.327735,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla\\CS_Assignment2.pdf": {
+            "hash": "c92aa5d82763e4948c21061dee853735237cea50ecfc26a429a2719dd58d10db",
+            "size": 318513,
+            "modified": 1762750211.3785956,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla\\q7.py": {
+            "hash": "aff222bad01ffbd0d698a66b88effe4c87945608ca635bbc6c614580e663a9c5",
+            "size": 12027,
+            "modified": 1762749587.4596126,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla\\q8.py": {
+            "hash": "978b58f42e89fbc5f2fab343c741db48be1a81134ffcb9455c7f24ce879825e2",
+            "size": 10741,
+            "modified": 1762749707.825706,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment2_RishikeshSirisilla\\q9.py": {
+            "hash": "8523de88cc16daba73ce627a2162a2e063674de1b38db10dffd5eb83166b396f",
+            "size": 11960,
+            "modified": 1762749801.2890642,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\attack_ranking.png": {
+            "hash": "b424809580d526c30303d3283d39ef10f3a30c889d7fff603c5033b4eeb21966",
+            "size": 329119,
+            "modified": 1764714575.2434258,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\attack_types_by_category.png": {
+            "hash": "f5a67be20ca5d37c757df452a3b6285749bd5329a2a0c94d2bc7523e7ac43820",
+            "size": 637574,
+            "modified": 1764714591.0150716,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\feature_frequencies.png": {
+            "hash": "fba7b5f734495c0bca7c20316d4d25bb2033e2ebd702d32234eca2cfa6fc6cdd",
+            "size": 313901,
+            "modified": 1764714597.571205,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\Intrusion_Detection_Preliminary_Analysis.ipynb": {
+            "hash": "28a739accc707e42a9bc5cb037ea2d14261e57a6a873ba20a6754af18eaf06b4",
+            "size": 88786,
+            "modified": 1764711536.1889758,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\KDDTest+.txt": {
+            "hash": "fa46b0935342616aa83b7c2578db355b6a7aaabbc492248172c7a1e8b7ab8f84",
+            "size": 3441513,
+            "modified": 1764712452.300227,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\KDDTrain+.txt": {
+            "hash": "1b86d2f957b33082081bba410fe129b475efebcc13c9014c3f447c8271aadf95",
+            "size": 19109424,
+            "modified": 1764713522.0423472,
+            "algorithm": "sha256"
+        },
+        "CS_Assignment3_RishikeshSirisilla\\tauscher_style_analysis.png": {
+            "hash": "bb221897be176699b646f918e594bb1de292ca6039e46eef3297a7943ab18a6e",
+            "size": 271439,
+            "modified": 1764714601.208526,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\COMMIT_EDITMSG": {
+            "hash": "a4968516e472289838c0af4a8d70a0fd12d9a70f8774cb1d003992e64ca59f62",
+            "size": 78,
+            "modified": 1765681886.3341,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\config": {
+            "hash": "e3af14a1111c0da4d43296b031a66f1cfc1077104864307718f7251a15acedff",
+            "size": 350,
+            "modified": 1765490337.172163,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\description": {
+            "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+            "size": 73,
+            "modified": 1761012327.9188101,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\FETCH_HEAD": {
+            "hash": "a7b9f1cb47531284372d870908d5b80b05322f8be4192710682db885d94e54a2",
+            "size": 114,
+            "modified": 1765681747.839804,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\HEAD": {
+            "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+            "size": 21,
+            "modified": 1761012331.6464362,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\index": {
+            "hash": "26261d9dde7ceb5de91c8ad3c5a22afa3b326b58589fa99c7c43fe8c8cfd3527",
+            "size": 556,
+            "modified": 1765681886.3186252,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\ORIG_HEAD": {
+            "hash": "1e649d29318697de1121bdb12b724de75ff350950e38f39e8f26a233171ccbf1",
+            "size": 41,
+            "modified": 1765681747.963009,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\packed-refs": {
+            "hash": "f19bd248f3b96b525f34109baa1582b04e7ca618a2be2c5ff88708749bda691f",
+            "size": 112,
+            "modified": 1761012331.6281397,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\applypatch-msg.sample": {
+            "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+            "size": 478,
+            "modified": 1761012327.923007,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\commit-msg.sample": {
+            "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+            "size": 896,
+            "modified": 1761012327.9264486,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\fsmonitor-watchman.sample": {
+            "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+            "size": 4726,
+            "modified": 1761012327.9275572,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\post-update.sample": {
+            "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+            "size": 189,
+            "modified": 1761012327.9295633,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-applypatch.sample": {
+            "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+            "size": 424,
+            "modified": 1761012327.932659,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-commit.sample": {
+            "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+            "size": 1649,
+            "modified": 1761012327.936685,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-merge-commit.sample": {
+            "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+            "size": 416,
+            "modified": 1761012327.9412348,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-push.sample": {
+            "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+            "size": 1374,
+            "modified": 1761012327.9440362,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-rebase.sample": {
+            "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+            "size": 4898,
+            "modified": 1761012327.9461932,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\pre-receive.sample": {
+            "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+            "size": 544,
+            "modified": 1761012327.946913,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\prepare-commit-msg.sample": {
+            "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+            "size": 1492,
+            "modified": 1761012327.9498174,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\push-to-checkout.sample": {
+            "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+            "size": 2783,
+            "modified": 1761012327.9507778,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\sendemail-validate.sample": {
+            "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+            "size": 2308,
+            "modified": 1761012327.957776,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\hooks\\update.sample": {
+            "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+            "size": 3650,
+            "modified": 1761012327.9594345,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\info\\exclude": {
+            "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+            "size": 240,
+            "modified": 1761012327.962846,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\logs\\HEAD": {
+            "hash": "59f4711bac94979fb463ba8614466c284c528dc8682826af9213970a93846271",
+            "size": 1974,
+            "modified": 1765681886.3506699,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\logs\\refs\\heads\\main": {
+            "hash": "59f4711bac94979fb463ba8614466c284c528dc8682826af9213970a93846271",
+            "size": 1974,
+            "modified": 1765681886.3520682,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\logs\\refs\\remotes\\origin\\HEAD": {
+            "hash": "63c0830d68cdb8eebf95282c17403bc85a4347c58d78af52ab1857733a56efc4",
+            "size": 203,
+            "modified": 1761012331.6427128,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\logs\\refs\\remotes\\origin\\main": {
+            "hash": "50068fdbbd9e668e067d0da95ebe15295ea217ebbf02cb271ffb76654a1757cb",
+            "size": 1503,
+            "modified": 1765681747.8325539,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\06\\d4ca06955ae9efbd8a4751291a457f3ecc9028": {
+            "hash": "10bbef433288c6f73e1d17d94f588dbc4e1fb2a169230edf2c9173f90b124c7b",
+            "size": 2549,
+            "modified": 1765681748.0318122,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\09\\bd042c1595c3127466e10175a9e4369b3c9dc5": {
+            "hash": "951a8a46cd01499efc146d0522ca8b87c5e40080fcfe47288e09e96c7d4dc739",
+            "size": 177,
+            "modified": 1765488048.2849383,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\0a\\8c991eddb305a42f30f0b5c4d12413392bcea4": {
+            "hash": "98a168f1ad1b32aba0dee87e513e58da486c0900a5b2446654b5e4590437ee02",
+            "size": 161,
+            "modified": 1765488048.2658982,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\10\\aceeb79d49de27598849d99bbbd52f15919472": {
+            "hash": "cf091afb46c9d235eca3498eedca8aa273ef919f1a40d297cc713a62d8830335",
+            "size": 167,
+            "modified": 1765486478.6215887,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\18\\af747b2bf66f0d6ddf1b802f25c8b21e5af2ef": {
+            "hash": "d7eab3cbf44d74a691433a08e7ce8f55e5c5cf911765bd953f7482d5c5a8820b",
+            "size": 203,
+            "modified": 1765681747.7118776,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\21\\c7efc63904e7ad4120783c0655c11566ac6a88": {
+            "hash": "50cb911b3c8348607463458c4794a547869b662d1f1dc9dd3c7efd3e43495952",
+            "size": 5373,
+            "modified": 1765681748.0409112,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\2d\\cf61e7a1a8624559cb38572ef8d368eb93b482": {
+            "hash": "e3306e53ff3321792abf30063c93dea3352fa882b00973742383f631f156bf4a",
+            "size": 53,
+            "modified": 1761015263.1155317,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\2e\\1fbdcdb019d2104360609e5e479f2477b8d3b1": {
+            "hash": "4d8e2fa968ee844d470544fc0e7e71aef0fb48071685d5cd5a2142fab566b328",
+            "size": 202,
+            "modified": 1765487385.483061,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\2e\\700658ef552e21ea41c8907cc653c718723e40": {
+            "hash": "3ea164317e43c5c762022cd2d91cd7f5397e7d966358dfbe20e10b4653790970",
+            "size": 835,
+            "modified": 1765485073.7801225,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\46\\4b5adebb1487760ab1fcce73cac9a4701cbb32": {
+            "hash": "e09824fd1988a153f98af44504a7a9d20aed6a4e334aca32a8b10766696914cb",
+            "size": 161,
+            "modified": 1765487758.5338795,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\4c\\a3f700a72e8963586767c4f5d5c716c2357db3": {
+            "hash": "6501a7e6fc3714e191d022f8be86b1b332137eeef534f4ba629ee697e315e6dd",
+            "size": 5281,
+            "modified": 1765490302.1132262,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\4c\\adcb6f3f16129f2f422eb85dc46d92a3043352": {
+            "hash": "aac2d1ee8578635ca69fb5409f23693b72daf7cdd02af80698567b503cef0585",
+            "size": 2481,
+            "modified": 1765486478.6260645,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\4d\\3a4d8738851dd58a37c1ee8b5a114bf15a6fe3": {
+            "hash": "f4dc2e94343b8f3c5f368c4e398140e0016580474355bb6cdef7e2d9cf0e4e77",
+            "size": 54,
+            "modified": 1765681747.7439651,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\50\\02b8d707887bd2e1a3719c7a341314366476b9": {
+            "hash": "1a25e8ef7d098e390dde8f6dab656a143023933f72ebcd52b7335d87d489758a",
+            "size": 5284,
+            "modified": 1765488817.5465517,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\56\\d3c0f02f81c6ceded7f1eee0cef45f4010513e": {
+            "hash": "18fe575af9213cf6d4dddf44e069d6270e9b96dacaf03f1957a3faa81a07ce20",
+            "size": 5290,
+            "modified": 1765681799.346768,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\5c\\98bc435705cda807cee1a26354156fcd2d88c6": {
+            "hash": "22d8e75ec40cef66d5979a89d4b85440ebbfea7a616874c33de3a08d501c5361",
+            "size": 54,
+            "modified": 1765485073.7882328,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\5e\\c9fc7118d5e96a95a9e168ea9e5b921c075e0b": {
+            "hash": "13fc9febd9f3eb1095ae1fd1306c4ec9d1e00cc4b951237386a0d471757cbfbe",
+            "size": 160,
+            "modified": 1765488843.6568232,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\6e\\bb1982c8f64e7e428fec079d2887093f41356f": {
+            "hash": "65ca704f14bda891f41aa1e234ecfe0469fad8dcdbb22dcac62df92907d3d4eb",
+            "size": 163,
+            "modified": 1761015263.1296668,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\75\\dba19ac8261bc70c00ea4230b4ec020342b9aa": {
+            "hash": "692742dd100634116e7c34ec43be80a4cd566e42fe3c25bd9b117162aa5c1b4d",
+            "size": 132,
+            "modified": 1765486542.7321703,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\7d\\bacb151b977073f0830bba4b34f5ed100f79c6": {
+            "hash": "8df0bf1013a779a662a0160be0a1e8617c6dcde6128ef586a16bcb14b79f5e25",
+            "size": 173,
+            "modified": 1765488843.6715982,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\7e\\67bd58b93364f9ac0f010f65c992aa9a34ba3d": {
+            "hash": "4ddc4181601379270072762da48ee13e8e9f8817e88e997c910eebc9751fa077",
+            "size": 185,
+            "modified": 1765486542.7535987,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\7f\\ecedb47f08c9af7e2769811494d84256612327": {
+            "hash": "ff58d28bdc326aff3da51394e4c281cb7eb2911949dd9cc6b54a7a1c80af82c2",
+            "size": 160,
+            "modified": 1765490327.462416,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\83\\98024ebbb4f315b9232fda6d32ed417112c30d": {
+            "hash": "464e2f64e07215ed02fe8a8f5feb399980eb554e5d36cd094f863c97a6c6ec22",
+            "size": 169,
+            "modified": 1765490327.4802873,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\86\\25fa4e5532e7db1f6bdb96683e8ed610c9fab5": {
+            "hash": "8278b0a5d81d26907c02c02299adb2bcbaff66e5ad53644822649541ae27be9c",
+            "size": 160,
+            "modified": 1765487883.749021,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\9e\\bbc509b860cc80b28d4d25a61f060816f305d5": {
+            "hash": "375a9565e9a4160c70d0d2276c0ad2b9d6c36ece16782b11ff8da3151ede0369",
+            "size": 352,
+            "modified": 1765487317.6967733,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\9f\\80c6b77c5576783a039f448cfbb7303297016b": {
+            "hash": "b2e5a3c46a92ebe6786a91b22b78e017eb90094768418ea23e88cb6cd87b2754",
+            "size": 239,
+            "modified": 1765681886.3414214,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\a1\\b45c4006d7c249f64e3e1b056306b7211e2102": {
+            "hash": "63f4b7ada8963ceb934043cca802547d947993076c84471d1d718c6aa23bc4e2",
+            "size": 53,
+            "modified": 1761015223.89485,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\a4\\92e2fc7c8cb2fa17b0d15d140aa52face0ceef": {
+            "hash": "25f8ef34aab2ce9b9d723c6f81a55db759401b577a1f3e2d63d59031fef3fa5a",
+            "size": 165,
+            "modified": 1765487758.551027,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\b4\\61e04a60245db633c3f83940b3db53efffe70b": {
+            "hash": "dc89b99c4c2bd85e4eb8a89101b85bd5574f34ec7866a057ee29d3e2afdfa62d",
+            "size": 5327,
+            "modified": 1765488007.12983,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\b6\\f456009d0dd98fc86e8a0d51f942061e048d8a": {
+            "hash": "907d880c9cd471a2d0eab08d2d1558b52b91fc49349421c88e1f001cc8efa92d",
+            "size": 160,
+            "modified": 1765681748.045062,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\b8\\bfecad6dc4522f51c39614bd9b56936873fe4c": {
+            "hash": "c30e9f7586d28209ccd0f16c2aaf5615a9e835fd576db537de400e4cff121d36",
+            "size": 3976,
+            "modified": 1765487317.7028189,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\b9\\a8c8b5b990c0f42f241d71e9dbfcf65ee5888d": {
+            "hash": "bbd351107f2cd30aa837aa9f9a8f5b7e6ea0d8b4acc6581d7c43467097f9a3f9",
+            "size": 112,
+            "modified": 1765486478.616354,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\c6\\5fb28c55e656bda9ab42e6d2f3898667fefef9": {
+            "hash": "928a9010366d922526f893278bf2c2c19efbc9c1f82954d84d4cc9791f5f4008",
+            "size": 161,
+            "modified": 1765487385.4694324,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\cc\\9f6c75a9705aa65ce5b08aef0a7b34a988257e": {
+            "hash": "0f3ec8f7a3e02b9f0360282da9b549e01028223a79f547d0dc5694c8365dac93",
+            "size": 280,
+            "modified": 1765681747.7311606,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\d4\\f3c200cd1bd408d8be7b5e1be7d6e558794e06": {
+            "hash": "28f08e2d1a239926f09a83597fd3dc1b18a27f01ac32129babdeb61314452f77",
+            "size": 275,
+            "modified": 1765487733.0599413,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\d9\\8bc8358fcc4f9b8daff58349f299e4af0272f9": {
+            "hash": "c2cc985843fe1ec2fc3459f2097b9a1b8994d7a3615afd4fcea55bf379c2acf2",
+            "size": 195,
+            "modified": 1765681747.7220204,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\e2\\619b2c5f1a762592964ed483624c2c93e47425": {
+            "hash": "7d76ba416654b8d20602ff0dda9a7d11955f048c0030d2409cad4169b3bfbfb0",
+            "size": 163,
+            "modified": 1765487883.777499,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\e2\\c7547456e0ecc4b83be52613793c28bd38efbb": {
+            "hash": "3171180654f592c7aa1be7c385d9e8bd07dea0096392d3a96ac4da0a5a155bce",
+            "size": 92,
+            "modified": 1765681747.727134,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\e7\\c9a32f96ddd6dd586ddcb0b21576f340e548d6": {
+            "hash": "d182d81cc619f5344e2f0c11b581ab7fa2dc8ccf721d821060f1c2596642dec3",
+            "size": 161,
+            "modified": 1765681886.3100748,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\e8\\74627a104c0d184a74f12f0825216bf27eb501": {
+            "hash": "ea4024ff816776b3dc9d2f573aa4b33ac7a6fdf5e2118a4e350f6c92b77920a7",
+            "size": 301,
+            "modified": 1765487856.9651375,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\fb\\3b3e3781536b2b14b7b0abd5b90d5a8770382f": {
+            "hash": "524a6990b1b5db9457f6250cb2a4eabd89670f0838c06cbbbfd556ca09cb6947",
+            "size": 771,
+            "modified": 1765681874.5678668,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\pack\\pack-12be615ccbdc429612987ac315e5159a76fdb331.idx": {
+            "hash": "d1cb2bba6ce7d05900522153e2b275704dea3300c173b6c8b51e570de7c4fe43",
+            "size": 1156,
+            "modified": 1761012331.4931388,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\pack\\pack-12be615ccbdc429612987ac315e5159a76fdb331.pack": {
+            "hash": "a1de520cbbaa6d22be83b24b07f3831f7a1e3c06d92746e60f6195caf477a7c3",
+            "size": 919,
+            "modified": 1761012331.4300954,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\objects\\pack\\pack-12be615ccbdc429612987ac315e5159a76fdb331.rev": {
+            "hash": "066fa0b32573ffd7e7f9041fd48ebe5d0991164d29514989858cb968ac9f5f91",
+            "size": 64,
+            "modified": 1761012331.4941385,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\refs\\heads\\main": {
+            "hash": "4d4e2d8bd75401db7f14d6c4b5992119010a016941f40d7a2ccaaf8e50b4367b",
+            "size": 41,
+            "modified": 1765681886.3469331,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\refs\\remotes\\origin\\HEAD": {
+            "hash": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+            "size": 30,
+            "modified": 1761012331.6341217,
+            "algorithm": "sha256"
+        },
+        "CS_Project\\ICSI524-Project\\.git\\refs\\remotes\\origin\\main": {
+            "hash": "e3443f640c7e9dd31ce885d28e254b2ffd04c347c3401388858de0821bab8a92",
+            "size": 41,
+            "modified": 1765681747.8285513,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\baseline.json": {
+            "hash": "c916cb84dcfba875293de0c379c868245e7d37147b472fa31ed306259ee499de",
+            "size": 690,
+            "modified": 1765686332.7902493,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\file_checker.py": {
+            "hash": "da3ba885c7c0ff5bd8af05f10df5d14b271e083d4f5e73e0d63cad1c66193ee7",
+            "size": 8327,
+            "modified": 1765683619.4903603,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\file_checker_gui.py": {
+            "hash": "0d7682b3d03fc50a127ebba6e453150f4c2441c39fae0b420112fdc9cfd33f67",
+            "size": 14868,
+            "modified": 1765686032.9548235,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\README.md": {
+            "hash": "c8d88a82805e6608264bad862ad89912e22af2d4a6950f6a9157d97e6444587b",
+            "size": 12424,
+            "modified": 1765685854.4018354,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\COMMIT_EDITMSG": {
+            "hash": "966eba07baae71bb8be6c61eab4b74c2275bdf3a2d83e568069b4e01b2695ee7",
+            "size": 39,
+            "modified": 1765685372.351067,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\config": {
+            "hash": "df14d25373c39f6bdacd09b2f0df109f439d70efa5c9e07b19b85639cb73b4c8",
+            "size": 346,
+            "modified": 1765682886.9475062,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\description": {
+            "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+            "size": 73,
+            "modified": 1765682321.750802,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\FETCH_HEAD": {
+            "hash": "b0ddf8d29fd457059892424b1f330b2ba0f379928f59da85e039ffb8df6f89df",
+            "size": 114,
+            "modified": 1765686332.533882,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\HEAD": {
+            "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+            "size": 21,
+            "modified": 1765682324.2685678,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\index": {
+            "hash": "9d9976631d5bfec5745db24e42b5136af5c8657664e8857c62883229ba2c47ce",
+            "size": 385,
+            "modified": 1765686332.8334274,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\ORIG_HEAD": {
+            "hash": "9f25052d1fcb6b6d044eee7586342eba6ca324771bd3e4dc52f738e213896a1f",
+            "size": 41,
+            "modified": 1765686332.763117,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\packed-refs": {
+            "hash": "c715882f0dfe5577baef30e43b5c80c176bc9c37a565a6ccaf88e5d3d34323ba",
+            "size": 112,
+            "modified": 1765682324.2481055,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\applypatch-msg.sample": {
+            "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+            "size": 478,
+            "modified": 1765682321.7535968,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\commit-msg.sample": {
+            "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+            "size": 896,
+            "modified": 1765682321.7544534,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\fsmonitor-watchman.sample": {
+            "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+            "size": 4726,
+            "modified": 1765682321.7564611,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\post-update.sample": {
+            "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+            "size": 189,
+            "modified": 1765682321.7572732,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-applypatch.sample": {
+            "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+            "size": 424,
+            "modified": 1765682321.7588787,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-commit.sample": {
+            "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+            "size": 1649,
+            "modified": 1765682321.7707117,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-merge-commit.sample": {
+            "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+            "size": 416,
+            "modified": 1765682321.7727203,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-push.sample": {
+            "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+            "size": 1374,
+            "modified": 1765682321.7739532,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-rebase.sample": {
+            "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+            "size": 4898,
+            "modified": 1765682321.7758658,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\pre-receive.sample": {
+            "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+            "size": 544,
+            "modified": 1765682321.7766626,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\prepare-commit-msg.sample": {
+            "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+            "size": 1492,
+            "modified": 1765682321.778033,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\push-to-checkout.sample": {
+            "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+            "size": 2783,
+            "modified": 1765682321.7820773,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\sendemail-validate.sample": {
+            "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+            "size": 2308,
+            "modified": 1765682321.783167,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\hooks\\update.sample": {
+            "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+            "size": 3650,
+            "modified": 1765682321.7845764,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\info\\exclude": {
+            "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+            "size": 240,
+            "modified": 1765682321.7864447,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\logs\\HEAD": {
+            "hash": "b780cf8828e5256621288281bc63b0114546dc429b8645a21466f6b860e2f1b2",
+            "size": 2691,
+            "modified": 1765686332.87645,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\logs\\refs\\heads\\main": {
+            "hash": "b780cf8828e5256621288281bc63b0114546dc429b8645a21466f6b860e2f1b2",
+            "size": 2691,
+            "modified": 1765686332.8789954,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\logs\\refs\\remotes\\origin\\HEAD": {
+            "hash": "9f431de527aa2328a769a0b908f6749bf2b01b620b8bc015be273cd702c6b10d",
+            "size": 199,
+            "modified": 1765682324.2650614,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\logs\\refs\\remotes\\origin\\main": {
+            "hash": "093b2dd34035976cd612dc349af2614415ac2e7d8359a41e6a1cdbb3903e891c",
+            "size": 2170,
+            "modified": 1765686332.5185976,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\12\\1643ae70a584f6fcde34386f69b7cc83dff4cf": {
+            "hash": "b42b2e87b4f1f3a394815e3d4cff3a09f1e32da90c30737d58e7f31a51735ea5",
+            "size": 93,
+            "modified": 1765683619.1231594,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\12\\186431ba8d952f3e810846e5a7687ee6a616d1": {
+            "hash": "597bf06c58075484a5f786039d03956b1a501b4f95ef46464be6c35e7b39fc81",
+            "size": 200,
+            "modified": 1765684714.0364609,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\12\\25bd3b8173ce82d26db386e3b7d718102cb09f": {
+            "hash": "3b79b6fc032adf3059d0b1bbfb87d42f22c3530cc6f66e1194f278ac0250e352",
+            "size": 93,
+            "modified": 1765683324.8736484,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\16\\555d50759369cc83d87209081878f9ddc0c510": {
+            "hash": "fa5603837702cf63006bc64eec1a2b01e1ef24b22e2b88d6a16beeb7faa941d6",
+            "size": 2100,
+            "modified": 1765683264.8165002,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\17\\a2413df68a9229f6d6aec9a2d76f2b52fdedf9": {
+            "hash": "e4fdc6bda91082f63b87ee700f7a178a635847ddbf92b245742700af08862902",
+            "size": 93,
+            "modified": 1765683200.3482013,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\1a\\e7de759f8ef6cb7305e5f313b40e5da5e18de8": {
+            "hash": "8c4ba6cc6e9287bfcc628b9a1361028500e2115d45cb2bbfe246083e846f2a52",
+            "size": 2501,
+            "modified": 1765683619.1011765,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\1d\\3f6220e3ad9bd874b8fbd01364b6fcff383422": {
+            "hash": "c1da6ef834a2fff4452cae11bf3f8870a5c0c70b029c6d135204ce5c1758ffc5",
+            "size": 124,
+            "modified": 1765683619.0790625,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\1e\\5c6c0f479be5acc7ab8a9e5eee4071b7792b73": {
+            "hash": "8d29c8967678db48eeb24d3addb10c519b846eea2f49c56dcefc5a36f6c883f7",
+            "size": 192,
+            "modified": 1765684714.050751,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\28\\ad7e9f3ae1c38efc70c59413540a3fa3368953": {
+            "hash": "657c97dde516eec0768dd33fadb2e1684bb3a7b0f52cc4bdc3f3d723e9bc5709",
+            "size": 6826,
+            "modified": 1765686032.362557,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\32\\1880d1d99b1430a1a064b3b4ecd92172b37b88": {
+            "hash": "8c8bb08b45925a47876813df03e72fe4bfa63bd3c3889cd9d31ad1a5b3e26fff",
+            "size": 185,
+            "modified": 1765683024.4834442,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\36\\c69549064cf45a15646ea5a81e4b35ace51d70": {
+            "hash": "a776a2051fc9983c46f8bf8a0b29741aee4f8e0570f51df9f0176e8351376727",
+            "size": 367,
+            "modified": 1765686332.317695,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\49\\aae99c5533a4664700596b53d2f51de0d94d36": {
+            "hash": "a60cfabcc4f2d524c21f4f7ca8bfc4d2e69fdf81d87f250450214c902ce63ea7",
+            "size": 211,
+            "modified": 1765682841.6994524,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\4a\\6ef47894be02791c2db44db38b652259fac1db": {
+            "hash": "c6619e88eb810bd0d44f867e4b10fdc0d26bbfd25a5fd4c5a29c1221cf6a5d1a",
+            "size": 93,
+            "modified": 1765682841.6735933,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\4c\\a3f700a72e8963586767c4f5d5c716c2357db3": {
+            "hash": "6501a7e6fc3714e191d022f8be86b1b332137eeef534f4ba629ee697e315e6dd",
+            "size": 5281,
+            "modified": 1765685316.8825722,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\50\\d84603e0d303d85c3c4a9e1ad604acfe274427": {
+            "hash": "847e62b2b701e94563d32c17480edfcc56afce19e6a04852bce969956f97ee65",
+            "size": 123,
+            "modified": 1765684714.1029377,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\57\\0acb526595bea91cee8083da18ca15c397a320": {
+            "hash": "8cbb3f24b6c5ceb255e2266f6705f216cc9ba906a167a6d6c2e67dcc445de5cb",
+            "size": 2100,
+            "modified": 1765683086.4409623,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\79\\ce0a4faf2f3278c7b00a921dd744081e363048": {
+            "hash": "a5c05a6b68959654ed406a3ffa1c30a1d6321f7d3df4f8746a2c5fdfa1f0b698",
+            "size": 187,
+            "modified": 1765686332.1963644,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\7a\\72cc08b09342c05dbfb642381e114b06667ec7": {
+            "hash": "287048cdffac06a87c9ed9ff37e5b8d1de948cb06efb4716099931a15392b7c8",
+            "size": 238,
+            "modified": 1765685118.9781988,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\7e\\15a401fd9a7c593d206786c82f3e6cb9b0579d": {
+            "hash": "2f2830c45849c5b856c23c191c72f0b7987f6a9f84abcf606a11d773a003eee5",
+            "size": 175,
+            "modified": 1765684072.576239,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\86\\d6301f0d0f4b5b8c7ffc13eb24d17a8b3d9861": {
+            "hash": "ecff9bc6ccaec83308a80263874b24bd7761348969e694788d8ce3df2bc91a9b",
+            "size": 3363,
+            "modified": 1765684714.1262968,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\88\\6782f583c9c23cc87b86fd392bb2e30b46ead9": {
+            "hash": "0fac7e9110388480cb3415569de1abab6a3468c29ce9601e115cc0406b7fbf90",
+            "size": 161,
+            "modified": 1765686332.2145748,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\99\\afef613a47dc10b88106f070ce7454759d099f": {
+            "hash": "959c351a6cbaca5f1106542c1bfd5a483cc853a5b89b19af295d83b51e7707eb",
+            "size": 1288,
+            "modified": 1765682707.8847375,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\a5\\8755e027beaeedd5309f9f76fca0b5480c3490": {
+            "hash": "0903351567c3e36eac65732940065234926c06f0d640002dbb6514cee899360c",
+            "size": 5301,
+            "modified": 1765685854.0444367,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ae\\ff725e38047fb3b7654e6cb80741b8f46ea2ca": {
+            "hash": "93dd7c2bb470950f0e5a3be1771c2e81ee5b01aff17811f7c81372e63f69a2f4",
+            "size": 182,
+            "modified": 1765683874.4536414,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\b2\\867ba2b24d697fa79a363efe4116f7dab63d5e": {
+            "hash": "1420ca6d996eb64bf6b50286378116845b23f633999db369bce4d291799ff628",
+            "size": 3955,
+            "modified": 1765685139.2145655,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\b8\\bfecad6dc4522f51c39614bd9b56936873fe4c": {
+            "hash": "c30e9f7586d28209ccd0f16c2aaf5615a9e835fd576db537de400e4cff121d36",
+            "size": 3976,
+            "modified": 1765686032.3905358,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\b9\\b6a3d91f4183ac0a695870bcc1ef0f53c14e61": {
+            "hash": "d31fa0a1a10686dab5daca46879cdf61a23aba381fed5b01409c7e5a5df68e77",
+            "size": 193,
+            "modified": 1765683324.8919911,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\bf\\8698532001fab5028cdd18ddb6340005b2741a": {
+            "hash": "32d93b897c96d1ddd0f35ac5aa96d9e03500268461ede0ecc6d507bc9310f334",
+            "size": 161,
+            "modified": 1765686032.3500516,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\bf\\e866b158b89a1a6d7883d4fd380e71de5dae4b": {
+            "hash": "9cea3148f69a5323aad84f848c823430dfc103ac42ab18a29d778bb7f5cd29d4",
+            "size": 201,
+            "modified": 1765683619.064826,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\c3\\298f3dabf70da0307073c1c4fd4ecdc7c05f68": {
+            "hash": "bdcc6916655efc35cf10210d681a7d23818e4573ca62e1697590cf8d463e2fd1",
+            "size": 2162,
+            "modified": 1765684518.2566812,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\c5\\1966ea74b5b937dc08ff3d473f1b2a621b744e": {
+            "hash": "d5346eb33a93818df8037438010572e62f25401b69a850aa9241b39b71c0b007",
+            "size": 123,
+            "modified": 1765684714.0648959,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\c7\\b99cc39fab0ffaee48e01281846c32daafec91": {
+            "hash": "6ca93e081ae8baccebf2416871dc5bac7d05dc3e35dbdfb195315fb7ca9639bc",
+            "size": 124,
+            "modified": 1765683874.475555,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ca\\adb6798391310e8f5c4824e69af7d3fffd082d": {
+            "hash": "04b896b0aac1fc51bc89ec72351aa100ef5681f135b43dd7fdf63ca2f5208c98",
+            "size": 2520,
+            "modified": 1765683874.4929345,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\cf\\95d6ecc2fdfdfa2ed978b8777c10efa2845153": {
+            "hash": "107b34217c40685d97378844b6bb2c1e138b6a2b199a6954682bf771d53e17bc",
+            "size": 195,
+            "modified": 1765683200.3650649,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\d1\\22fa052149e18223a52206bb945cc39cb39104": {
+            "hash": "1298abcf5231b54e905727e486c691980cd7389a7f9129b27073e524189192c6",
+            "size": 123,
+            "modified": 1765684072.5599248,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\d6\\a10c5d6b120021349121f7851f242c6eaf235e": {
+            "hash": "c63b9744c3305166f7285bfd80c5679d18e3f440aaec2c44ce55b3cbd9a87166",
+            "size": 183,
+            "modified": 1765686032.3159711,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\d8\\b7d542d1b8589445b80df86253024bb5922b15": {
+            "hash": "d6f6d944c57a5fe0a17dbaf01c67c3943374ade7cd274809f4cde54a2eaafb2c",
+            "size": 93,
+            "modified": 1765683024.5016458,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\da\\1bd73fcbf746701f1b58b51f9657d287f3e9f4": {
+            "hash": "0f3fcec6cfcc9fe6261d19645ac35bb944b98f3fea38a366f6203746263cb1a5",
+            "size": 178,
+            "modified": 1765685372.355729,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\dd\\94dbb238e4af0a09dbb9c8355f47808d370e6d": {
+            "hash": "21bfb6761b36f0f508754af9f67c531944ffa28e0eca02e0cc482455b9ffe60a",
+            "size": 177,
+            "modified": 1765683533.0529537,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\de\\75d5415226697097d6a975d99d8868fa25e62a": {
+            "hash": "4e2e367a3dfc3dbe6c0b5b0b38b7a961ab9a753874bbba40d36f783de843daa7",
+            "size": 123,
+            "modified": 1765683533.0365634,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\e3\\9a20386e50ede432d256d91874ee4a9ff20f17": {
+            "hash": "05ca4cd8776e877ffa0c87a578754068508a3b96428df677535dd0863de9dab2",
+            "size": 180,
+            "modified": 1765685854.0063703,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\e6\\9de29bb2d1d6434b8b29ae775ad8c2e48c5391": {
+            "hash": "164c5fa8067facf1a43f09ce3d0e35ebf53a7f5723ecbf15a8667cfc53c26f6c",
+            "size": 15,
+            "modified": 1765683449.1959434,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\e7\\8661672f7f74aa81735eb8165ed5509c919860": {
+            "hash": "59cf9e9536038ade518acb608a8a6374f458ad8ed2decec1060bd2efdc06a770",
+            "size": 124,
+            "modified": 1765685372.3317387,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\e8\\f8d1c3af28e4531d0693e237521bef6c596832": {
+            "hash": "092bd74d72bc182d9755d91f6ba8b7aeaf8b7c76eab5865131f9afbcce5564ae",
+            "size": 2860,
+            "modified": 1765683968.373957,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ec\\96fadfb27f9f01dcd06c3eee2cc01ec366e7a5": {
+            "hash": "62aa7384b6134c21b08ab31ccc2b8d5eb5193d19831396f8633052c4c41f55e9",
+            "size": 1528,
+            "modified": 1765683024.5157905,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ed\\21454e6775103046abf42ee74d256788ae6f4f": {
+            "hash": "1f99aa8847ed1bb63afd469fe646e1bdc39cf209d53ad92cb98a5f054afd8c70",
+            "size": 178,
+            "modified": 1765684679.6468437,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ed\\fc1edf89e1934f7ba2a4fd3b006c446040000a": {
+            "hash": "c7644c5e3ecab1602cce21485418c0b903774d01afbccc6a3986aa967b8c78ae",
+            "size": 124,
+            "modified": 1765684679.6283503,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\ee\\b462f6cbfbe5ddbe5f3233e3ae33f2ae910725": {
+            "hash": "8449e6c4fd42140c834f4981d61d4533da3c382c6ef47881fb5c81e3bcf2d5db",
+            "size": 124,
+            "modified": 1765685854.02668,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\f0\\b8f5063bc6e8fc95ba73c98d0f672b506a2c80": {
+            "hash": "09338d4533353058471a5bf3b19f809804e91fc2733b3b902eed784abc9e222b",
+            "size": 124,
+            "modified": 1765685162.926874,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\f7\\d74a85d190d0f3c3028ddc17f9ffaf1503b679": {
+            "hash": "86bf7b1fc6281ce71932952bc9b532876a6e4695f9ad54fd7a8913e66400495f",
+            "size": 249,
+            "modified": 1765683619.054981,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\pack\\pack-574c085c10a2e7b4eab7fa3a16cf4bd1358666f1.idx": {
+            "hash": "0805d03643d19e7c44665472f1acce32e16f3e455d1e71f9c1859e2980663db1",
+            "size": 1492,
+            "modified": 1765682324.0150285,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\pack\\pack-574c085c10a2e7b4eab7fa3a16cf4bd1358666f1.pack": {
+            "hash": "cef1d833277f51c91d89843eb5f189d9f03797fbb31f9e2a2418b7c9a39cdde4",
+            "size": 3658,
+            "modified": 1765682323.992827,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\objects\\pack\\pack-574c085c10a2e7b4eab7fa3a16cf4bd1358666f1.rev": {
+            "hash": "6cd22ad3af5b61d8c423032c6e4dabf1ace7ca680305a8d60ef51541bc67ed2e",
+            "size": 112,
+            "modified": 1765682324.018212,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\refs\\heads\\main": {
+            "hash": "8e0ab9de96dc6ae8aaf08f8003479bc123930a1972e99fa5371240b46e0cebc6",
+            "size": 41,
+            "modified": 1765686332.8584652,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\refs\\remotes\\origin\\HEAD": {
+            "hash": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+            "size": 30,
+            "modified": 1765682324.255992,
+            "algorithm": "sha256"
+        },
+        "ICSI524-Project\\.git\\refs\\remotes\\origin\\main": {
+            "hash": "8e0ab9de96dc6ae8aaf08f8003479bc123930a1972e99fa5371240b46e0cebc6",
+            "size": 41,
+            "modified": 1765686332.514442,
+            "algorithm": "sha256"
+        },
+        "project test files\\test_file.txt": {
+            "hash": "d86e101674da9853acf3f1ddb9fce49dc425c45669949b5a91ccb56d756ca753",
+            "size": 54,
+            "modified": 1765487064.727065,
             "algorithm": "sha256"
         }
     }
