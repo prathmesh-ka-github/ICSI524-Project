@@ -2,9 +2,9 @@
 
 Team Members:
 
-Prathmesh Kale - 001663411
+Prathmesh Kale
 
-Rishikesh Sirisilla - 001661448
+Rishikesh Sirisilla
 
 # 🔒 File Integrity Checker
 
